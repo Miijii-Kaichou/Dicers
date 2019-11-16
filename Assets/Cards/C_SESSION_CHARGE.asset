@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce86c988b3d09444b9245a8c154294e8, type: 3}
+  m_Name: C_SESSION_CHARGE
+  m_EditorClassIdentifier: 
+  m_Name: Session Charge
+  effectType: 0
+  cardDescription: 'Roll one die. An effect will take place depending on the number
+    rolled.
+
+
+    You can roll and draw that amount of cards then pick one and replace this creature
+    with that and shuffle the rest into the deck. If three copies of this card are
+    in your grave because your opponent sent them there or are on your side deal your
+    enemies health to them as damage. You must not have any other cards in your grave
+    and no other cards in your hand.'
+  cardEffects:
+  - effectDescription: "Both players take damage equal to the attack of the enemy\u2019s
+      left creature."
+  - effectDescription: "Both players take damage equal to the attack of the enemy\u2019s
+      middle creature."
+  - effectDescription: "Both players take damage equal to the attack of the enemy\u2019s
+      right creature."
+  - effectDescription: Both players take damage equal to the attack of your left creature.
+  - effectDescription: Both players take damage equal to the attack of your middle
+      creature.
+  - effectDescription: Both players take damage equal to the attack of your right
+      creature.
+  cardCoverArt: {fileID: 0}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce86c988b3d09444b9245a8c154294e8, type: 3}
+  m_Name: C_GIVE_OR_TAKE
+  m_EditorClassIdentifier: 
+  m_Name: Give Or Take
+  effectType: 0
+  cardDescription: Roll one die. An effect will take place depending on the number
+    rolled.
+  cardEffects:
+  - effectDescription: Take the enemies left creature.
+  - effectDescription: Take the enemies middle creature.
+  - effectDescription: Take the enemy's right creature.
+  - effectDescription: Give the enemy your left creature.
+  - effectDescription: Give the enemy your middle creature.
+  - effectDescription: Give the enemy your right creature.
+  cardCoverArt: {fileID: 0}
