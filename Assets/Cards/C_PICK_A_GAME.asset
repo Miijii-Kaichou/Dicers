@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce86c988b3d09444b9245a8c154294e8, type: 3}
   m_Name: C_PICK_A_GAME
   m_EditorClassIdentifier: 
-  m_Name: 
+  m_Name: Pick A Game
   effectType: 0
-  cardDescription: 
+  cardDescription: Every Turn you can send this card to the grave and lose 10000 health.
+    Place any card from your deck.
   cardEffects:
   - effectDescription: 
   - effectDescription: 

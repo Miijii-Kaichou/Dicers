@@ -10,9 +10,10 @@ public class Card : ScriptableObject
     public string m_Name;
 
     //A card's effect type
-    public enum EffectType
+    public enum EffectType;
     {
         EVERY_TURN,
+        PLACED,
         BOTH_PLAYERS,
         LEFT_CREATURES,
         MIDDLE_CREATURES,
@@ -27,12 +28,22 @@ public class Card : ScriptableObject
 
     //Stats
     public Stats cardStats;
+    public string Stats;
+
+    public enum Stats;
+    {
+        DRAIN,
+        CHARGE,
+        HEALTH,
+        ATTACK
+    }
+
 
     //Effects
     public Effect[] cardEffects = new Effect[6];
 
     //What template to used for this card
-    public enum CardTemplate
+    public enum CardTemplate;
     {
         DRAIN,
         CHARGE,

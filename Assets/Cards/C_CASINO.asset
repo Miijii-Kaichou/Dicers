@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce86c988b3d09444b9245a8c154294e8, type: 3}
   m_Name: C_CASINO
   m_EditorClassIdentifier: 
-  m_Name: 
-  effectType: 0
-  cardDescription: 
+  m_Name: Casino
+  effectType: 1
+  cardDescription: 'When this is placed: Pick one card from your deck. Reveal the
+    card picked then shuffle it and all other cards other than "Casino" into your
+    deck. Every Turn you can roll a dice and place that amount of creatures from the
+    top of your deck under this card. If you get three of the picked card in a stack
+    under you with this effect you win. Gain 2000 HP or 1 Drain and 2000 attack for
+    each card under this. Your other cards can''t be placed while this is placed.'
   cardEffects:
   - effectDescription: 
   - effectDescription: 

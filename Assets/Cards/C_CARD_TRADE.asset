@@ -12,14 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce86c988b3d09444b9245a8c154294e8, type: 3}
   m_Name: C_CARD_TRADE
   m_EditorClassIdentifier: 
-  m_Name: 
+  m_Name: Card Trade
   effectType: 0
-  cardDescription: 
+  cardDescription: 'Every Turn-Roll and if lands on:
+
+    1: Switch this card and your opponent''s left creature
+
+    2:Switch this card and your opponent''s middle creature
+
+    3:Switch this card and your opponent''s right creature
+
+    4:Swith this card and your left creature
+
+    5:Switch this card and your middle creature
+
+    6:Switch this card and your right creature
+
+    Every Turn: You can roll and draw that amount of cards from the top of your deck
+    and place the last card drawn on top of this creature. The other cards are shuffled
+    into the deck. Cards on top of this card cannot use this effect this turn.'
   cardEffects:
-  - effectDescription: 
-  - effectDescription: 
-  - effectDescription: 
-  - effectDescription: 
-  - effectDescription: 
-  - effectDescription: 
+  - effectDescription: Roll a dice and get the number rolled.
+  - effectDescription: Place the card in the corresponding zone in this zone.
+  - effectDescription: Place this card in that zone.
+  - effectDescription: Roll a dice and get the number rolled.
+  - effectDescription: Draw that amount of cards and place the last card drawn on
+      top of this. Shuffle the rest of the cards into the deck.
+  - effectDescription: Cards on top of this cannot activate this card this turn.
   cardCoverArt: {fileID: 0}

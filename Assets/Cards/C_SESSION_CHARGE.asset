@@ -13,16 +13,33 @@ MonoBehaviour:
   m_Name: C_SESSION_CHARGE
   m_EditorClassIdentifier: 
   m_Name: Session Charge
-  effectType: 0
-  cardDescription: 'Roll one die. An effect will take place depending on the number
-    rolled.
+  effectType: 2
+  cardDescription: 'Every Turn-Roll and if lands on:
 
+    1-3:Your opponent gets the next effect
 
-    You can roll and draw that amount of cards then pick one and replace this creature
-    with that and shuffle the rest into the deck. If three copies of this card are
-    in your grave because your opponent sent them there or are on your side deal your
-    enemies health to them as damage. You must not have any other cards in your grave
-    and no other cards in your hand.'
+    4-6:You get the next effect
+
+    Roll the dice again if it lands on:
+
+    1:Both players take damage equal to the attack from the enemy''s left creature
+
+    2:Both players take damage equal to the attack from the enemy''s middle creature
+
+    3:Both players take damage equal to the attack from the enemy''s right creature
+
+    4:Both players take damage equal to the attack from your left creature
+
+    5:Both players take damage equal to the attack from your middle creature
+
+    6:Both players take damage equal to the attack from your right creature
+
+    If three copies of this card are in your grave or are in your zones and there
+    are no cards in your grave and your hand you win the game.
+
+    Every Turn: You can roll and draw that amount of cards from the top of your deck
+    and place the last card drawn on top of this creature. The other cards are shuffled
+    into the deck. Cards on top of this card cannot use this effect this turn.'
   cardEffects:
   - effectDescription: "Both players take damage equal to the attack of the enemy\u2019s
       left creature."

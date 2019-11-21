@@ -12,9 +12,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce86c988b3d09444b9245a8c154294e8, type: 3}
   m_Name: C_LUCKY_WINNER
   m_EditorClassIdentifier: 
-  m_Name: 
+  m_Name: Lucky Winner
   effectType: 0
-  cardDescription: 
+  cardDescription: 'Every Turn-Roll and if lands on:
+
+    1-3:Your opponent gets the next effect
+
+    4-6:You get the next effect
+
+    Roll the dice again if it lands on:
+
+    1:Gain life from the enemy''s left creature
+
+    2:Gain life from the enemy''s middle creature
+
+    3:Gain life from the enemy''s right creature
+
+    4:Gain life from your left creature
+
+    5:Gain life from your middle creature
+
+    6:Gain life from your right creature
+
+    If three copies of this card are in your grave or are in your zones and there
+    are no cards in your grave and your hand you win the game.
+
+    Every Turn: You can roll and draw that amount of cards from the top of your deck
+    and place the last card drawn on top of this creature. The other cards are shuffled
+    into the deck. Cards on top of this card cannot use this effect this turn.'
   cardEffects:
   - effectDescription: 
   - effectDescription: 

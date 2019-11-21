@@ -12,9 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce86c988b3d09444b9245a8c154294e8, type: 3}
   m_Name: C_MULLIGAN
   m_EditorClassIdentifier: 
-  m_Name: 
-  effectType: 0
-  cardDescription: 
+  m_Name: Mulligan
+  effectType: 2
+  cardDescription: 'Both players can reroll each roll one time.
+
+    Every Turn-Roll and if lands on:
+
+    1:Return your opponent''s left creature to the hand
+
+    2:Return your opponent''s middle creature to the hand
+
+    3:Return your opponent''s right creature to the hand
+
+    4:Return your left creature to your opponent to the hand
+
+    5:Return your middle creature to your opponent to your hand
+
+    6:Return your right creature to your opponent to your hand
+
+    Every Turn: You can roll and draw that amount of cards from the top of your deck
+    and place the last card drawn on top of this creature. The other cards are shuffled
+    into the deck. Cards on top of this card cannot use this effect this turn.'
   cardEffects:
   - effectDescription: 
   - effectDescription: 

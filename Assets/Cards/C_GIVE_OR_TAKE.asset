@@ -14,8 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Name: Give Or Take
   effectType: 0
-  cardDescription: Roll one die. An effect will take place depending on the number
-    rolled.
+  cardDescription: 'Every Turn-Roll and if lands on:
+
+    1:Take your opponent''s left creature
+
+    2:Take your opponent''s middle creature
+
+    3:Take your opponent''s right creature
+
+    4:Give your left creature to your opponent
+
+    5:Give your middle creature to your opponent
+
+    6:Give your right creature to your opponent
+
+    Every Turn: You can roll and draw that amount of cards from the top of your deck
+    and place the last card drawn on top of this creature. The other cards are shuffled
+    into the deck. Cards on top of this card cannot use this effect this turn.'
   cardEffects:
   - effectDescription: Take the enemies left creature.
   - effectDescription: Take the enemies middle creature.
