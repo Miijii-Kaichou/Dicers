@@ -10,7 +10,7 @@ public class Card : ScriptableObject
     public string m_Name;
 
     //A card's effect type
-    public enum EffectType;
+    public enum EffectType
     {
         EVERY_TURN,
         PLACED,
@@ -26,24 +26,42 @@ public class Card : ScriptableObject
     [TextArea]
     public string cardDescription;
 
-    //Stats
-    public Stats cardStats;
-    public string Stats;
-
-    public enum Stats;
+    //Stats    
+        public enum cardStats
     {
-        DRAIN,
-        CHARGE,
-        HEALTH,
-        ATTACK
+        Offensive,
+        Defensive
     }
+
+    public cardStats typeStats;
+
+    public enum Offensive
+    {
+        ATTACK,
+        CHARGE
+    }
+
+    public Offensive offensivesStats;
+
+    public string m_offensiveValue;
+
+    public enum Defensive
+    {
+        HP,
+        DRAIN
+    }
+
+    public Defensive defensivesStats;
+
+    public string m_defensiveValue;
+    
 
 
     //Effects
     public Effect[] cardEffects = new Effect[6];
 
     //What template to used for this card
-    public enum CardTemplate;
+    public enum CardTemplate
     {
         DRAIN,
         CHARGE,

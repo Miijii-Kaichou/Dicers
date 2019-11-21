@@ -31,6 +31,8 @@ MonoBehaviour:
     Every Turn: You can roll and draw that amount of cards from the top of your deck
     and place the last card drawn on top of this creature. The other cards are shuffled
     into the deck. Cards on top of this card cannot use this effect this turn.'
+  offensivesStats: 1
+  defensivesStats: 1
   cardEffects:
   - effectDescription: Roll a dice and get the number rolled.
   - effectDescription: Place the card in the corresponding zone in this zone.
