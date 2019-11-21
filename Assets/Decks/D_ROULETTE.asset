@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58351a13570f9b745bc8698bbd237484, type: 3}
   m_Name: D_ROULETTE
   m_EditorClassIdentifier: 
+  decksName: 0
   m_Name: Roulette
   deckDescription: It's core mechanic revolves around the art of gambling.
   card:

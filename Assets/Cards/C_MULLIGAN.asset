@@ -33,6 +33,11 @@ MonoBehaviour:
     Every Turn: You can roll and draw that amount of cards from the top of your deck
     and place the last card drawn on top of this creature. The other cards are shuffled
     into the deck. Cards on top of this card cannot use this effect this turn.'
+  typeStats: 0
+  offensivesStats: 0
+  m_offensiveValue: 0
+  defensivesStats: 0
+  m_defensiveValue: 10000
   cardEffects:
   - effectDescription: 
   - effectDescription: 

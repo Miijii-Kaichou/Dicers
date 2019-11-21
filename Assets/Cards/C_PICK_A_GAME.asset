@@ -16,6 +16,11 @@ MonoBehaviour:
   effectType: 0
   cardDescription: Every Turn you can send this card to the grave and lose 10000 health.
     Place any card from your deck.
+  typeStats: 0
+  offensivesStats: 0
+  m_offensiveValue: 0
+  defensivesStats: 0
+  m_defensiveValue: 10000
   cardEffects:
   - effectDescription: 
   - effectDescription: 
