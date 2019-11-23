@@ -9,64 +9,19 @@ public class Card : ScriptableObject
     //Name of card
     public string m_Name;
 
-    //A card's effect type
-    public enum EffectType
-    {
-        EVERY_TURN,
-        PLACED,
-        BOTH_PLAYERS,
-        LEFT_CREATURES,
-        MIDDLE_CREATURES,
-        RIGHT_CREATURES
-    }
-
-    public EffectType effectType;
+    //Stats
+    //We don't have to put a lot of stuff in card.
+    //This is taking class implementation modularly, which 
+    //makes it easier to track down things
+    //without a lot of stuff.
+    public Stats stats;
 
     //Card Description
     [TextArea]
     public string cardDescription;
 
-    //Stats    
-        public enum cardStats
-    {
-        Offensive,
-        Defensive
-    }
-
-    public cardStats typeStats;
-
-    public enum Offensive
-    {
-        ATTACK,
-        CHARGE
-    }
-
-    public Offensive offensivesStats;
-
-    public string m_offensiveValue;
-
-    public enum Defensive
-    {
-        HP,
-        DRAIN
-    }
-
-    public Defensive defensivesStats;
-
-    public string m_defensiveValue;
-    
-
-
     //Effects
     public Effect[] cardEffects = new Effect[6];
-
-    //What template to used for this card
-    public enum CardTemplate
-    {
-        DRAIN,
-        CHARGE,
-        BOTH
-    }
 
     //CoverArt
     public Image cardCoverArt;

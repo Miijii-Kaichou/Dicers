@@ -4,34 +4,24 @@ using UnityEngine;
 
 public class Stats
 {
-    public enum cardStats
-    {
-        Offensive,
-        Defensive
-    }
+    /*We are of no need for enumerators.
+     * If we simply have these stats as integers
+     * we can check if either of those are zero,
+     * which opens a lot of doors.
+     * Sometimes you want to put the less amount of work
+     * to get a desired result.
+     * 
+     * Also, using the Header attribute will display
+     * which stats are defensive, and which stats are 
+     * offsensive.
+     * 
+     * ~Tyrease Teer
+     */
 
-    public cardStats typeStats;
-
-    public enum Offensive
-    {
-        ATTACK,
-        CHARGE
-    }
-
-    public Offensive offensivesStats;
-
-    public string m_offensiveValue;
-
-    public enum Defensive
-    {
-        HP,
-        DRAIN
-    }
-
-    public Defensive defensivesStats;
-
-    public string m_defensiveValue;
-    
     //All stats
-    public int HP, DRAIN, ATTACK, CHARGE;
+    [Header("Defensive Stats")]
+    public int HP, DRAIN;
+
+    [Header("Offensive Stats")]
+    public int ATTACK, CHARGE;
 }
